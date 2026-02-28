@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOUTX — Home</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0f172a;
+            color: #e5e7eb;
+        }
+        header {
+            background: #020617;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #1f2937;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: #38bdf8;
+        }
+        nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+        nav a:hover {
+            color: #38bdf8;
+        }
+        .hero {
+            padding: 100px 40px;
+            text-align: center;
+            background: linear-gradient(135deg, #020617, #0f172a);
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+            color: #94a3b8;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+        .btn {
+            background: #38bdf8;
+            color: #020617;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 60px 40px;
+        }
+        .card {
+            background: #020617;
+            padding: 24px;
+            border-radius: 14px;
+            border: 1px solid #1f2937;
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #38bdf8;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            border-top: 1px solid #1f2937;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">SOUTX</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Welcome to SOUTX</h1>
+    <p>Powerful. Fast. Modern. SOUTX is built to deliver the next-generation digital experience.</p>
+    <a href="#features" class="btn">Explore</a>
+</section>
+
+<section id="features" class="features">
+    <div class="card">
+        <h3>⚡ Fast Performance</h3>
+        <p>Optimized for speed and smooth user experience across all devices.</p>
+    </div>
+    <div class="card">
+        <h3>🔒 Secure</h3>
+        <p>Built with modern security practices to keep your data safe.</p>
+    </div>
+    <div class="card">
+        <h3>🎨 Modern Design</h3>
+        <p>Clean and responsive interface that looks great everywhere.</p>
+    </div>
+    <div class="card">
+        <h3>🚀 Scalable</h3>
+        <p>Designed to grow with your needs and handle future expansion.</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 SOUTX. All rights reserved.
+</footer>
+
+</body>
+</html>
